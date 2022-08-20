@@ -12,7 +12,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hello-world</name>
 	<description>hello-world</description>
-
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
